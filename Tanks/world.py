@@ -77,7 +77,7 @@ def get_height():
 def initialize(canv):
     global _canvas, _map
     _canvas = canv
-    rmap = random.randint(1, 4)
+    rmap = random.randint(1, 1)
     if rmap == 1:
         load_map('../map/5.tmap.txt')
     elif rmap == 2:

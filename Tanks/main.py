@@ -83,9 +83,7 @@ def load_textures():
     print(texture._frames)
 
 w = Tk()
-
 load_textures()
-
 w.title('Танки на минималках 2.0')
 canv = Canvas(w, width = world.SCREEN_WIDTH, height = world.SCREEN_HEIGHT, bg="ForestGreen")
 canv.pack()

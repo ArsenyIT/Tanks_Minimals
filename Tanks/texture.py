@@ -1,5 +1,4 @@
 from tkinter import PhotoImage
-
 _frames = {}
 
 def load(name, file_name):
